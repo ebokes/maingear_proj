@@ -10,3 +10,45 @@ html {
 
 body {
   box-sizing: border-box; }
+
+body {
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif; }
+
+.navigation {
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  width: 100%;
+  display: inline-block;
+  margin-right: 2rem;
+  float: left;
+  text-align: center;
+  padding-top: .5rem; }
+  .navigation__item {
+    list-style: none;
+    display: inline-block;
+    margin: 2rem 1.5rem; }
+  .navigation__link {
+    font-size: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: .1rem; }
+    .navigation__link span {
+      background-color: #f80000;
+      color: #ffffff;
+      display: inline-block;
+      padding: .1rem .4rem;
+      border-radius: 2px; }
+    .navigation__link:hover {
+      color: #979899; }
+  .navigation__logo--box {
+    display: inline-block;
+    float: left;
+    margin: 1.5rem 3rem; }
+  .navigation__primary--main {
+    display: inline-block; }
+  .navigation__primary--sub {
+    display: inline-block;
+    float: right; }

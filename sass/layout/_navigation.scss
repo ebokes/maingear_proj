@@ -1,0 +1,62 @@
+.navigation{
+    box-shadow: 0 .3rem 1rem rgba($color-black, .1);
+    background-color: $color-white;
+    width: 100%;
+    display: inline-block;
+    margin-right: 2rem;
+    float:left;
+    text-align: center;
+    padding-top: .5rem;
+
+    
+    &__item{
+        list-style: none;
+        display: inline-block;
+        margin: 2rem 1.5rem;
+    }
+    
+    
+    &__link{
+        font-size: inherit;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $color-black;
+        letter-spacing: .1rem;
+
+        span{
+            background-color: $color-red-2;
+            color: $color-white;
+            display: inline-block;
+            padding: .1rem .4rem;
+            border-radius: 2px;
+        }
+
+        &:hover{
+            color: $color-dark-grey-2;
+        }
+    }
+    
+    &__logo--box{
+        display: inline-block;
+        float: left;
+        margin: 1.5rem 3rem;
+    }
+
+    &__logo{
+        
+    }
+
+
+    &__primary{
+        
+        &--main{
+            display: inline-block;
+        }
+        
+        &--sub{
+            display: inline-block;
+            float:right;
+        }
+    }
+}
