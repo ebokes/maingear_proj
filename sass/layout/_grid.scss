@@ -1,0 +1,37 @@
+// .row {
+//     width: 114rem;
+//     margin-bottom: 8rem;
+//     margin: 0 auto;
+
+//     &:not(:last-child) {
+//         margin-bottom: 8rem; 
+//     }
+
+//     [class^="col-"] {
+//         float: right; 
+ 
+//         // &:not(:last-child) {
+//         //     margin-right: 6rem;
+//         // }
+        
+//     }
+
+//     .col-1-of-2 {
+//         width: calc((100% - #{6rem}) / 2);
+//     }
+// }
+
+// .row {
+//     width: 114rem;
+
+//     &:not(:last-child) {
+//         margin-bottom:8rem; 
+//     }
+
+//     [class^="col-"] {
+//         float: left;
+//         &:not(:last-child) {
+//             margin-right: 6rem;
+//         }
+//     }
+// } 
