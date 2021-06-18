@@ -10,3 +10,59 @@ html {
 
 body {
   box-sizing: border-box; }
+
+body {
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif; }
+
+.col-1-of-2 {
+  display: table;
+  background-color: #f7f7f7;
+  width: 50%;
+  height: 50rem; }
+
+.product__container {
+  padding: 5rem 10rem; }
+
+.product__photo {
+  display: table-cell;
+  padding-right: 3rem; }
+  .product__photo--graphics {
+    height: 40rem; }
+
+.details {
+  vertical-align: top;
+  display: table-cell;
+  width: 31rem;
+  padding-left: 4rem; }
+  .details__heading-link {
+    text-decoration: none;
+    color: #404040;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: inherit;
+    line-height: 1rem; }
+    .details__heading-link:hover {
+      color: #c92228; }
+  .details__subtitle {
+    margin: 1rem 0; }
+  .details__para {
+    line-height: 2.2rem;
+    font-size: 1.3rem; }
+  .details__img {
+    height: 10rem;
+    padding: 2rem 0; }
+  .details__dash {
+    border-bottom: 0.1rem solid #dddddd;
+    margin-bottom: 3rem; }
+  .details__btn {
+    border: none;
+    border-radius: 10rem;
+    padding: 1rem 2rem;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none; }
+    .details__btn--grey {
+      background-color: #eaeaea;
+      color: #464d54; }
