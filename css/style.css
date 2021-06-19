@@ -15,54 +15,100 @@ body {
   font-size: 1.2rem;
   font-family: 'Poppins', sans-serif; }
 
-.col-1-of-2 {
-  display: table;
-  background-color: #f7f7f7;
-  width: 50%;
-  height: 50rem; }
+.row {
+  display: table; }
+  .row .col-1-of-2 {
+    display: table-cell;
+    width: 50%; }
+  .row .col-2-of-2 {
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle; }
+  .row .product__container {
+    padding: 5rem;
+    display: table; }
+  .row .product__photo {
+    display: table-cell;
+    padding-right: 3rem; }
+    .row .product__photo--device {
+      height: 40rem;
+      padding-left: 4rem; }
+    .row .product__photo--device-amd {
+      height: 28rem; }
+    .row .product__photo--device-laptop {
+      width: 30rem; }
+  .row .details {
+    vertical-align: top;
+    display: table-cell;
+    width: 33.5rem;
+    padding-left: 5rem; }
+    .row .details__heading {
+      text-decoration: none;
+      color: #404040;
+      font-size: 3rem;
+      font-weight: 700;
+      font-family: inherit;
+      line-height: 3.5rem; }
+      .row .details__heading--element {
+        font-size: 3.5rem;
+        font-family: inherit;
+        text-decoration: none;
+        font-weight: 700;
+        color: #404040;
+        padding-bottom: 2rem;
+        display: inline-block; }
+        .row .details__heading--element-lite {
+          display: inline-block;
+          background-color: #ff3399;
+          padding: .1rem .8rem;
+          color: #ffffff;
+          font-family: inherit;
+          text-decoration: none;
+          font-weight: 800;
+          border-radius: 1rem; }
+      .row .details__heading:hover {
+        color: #c92228; }
+    .row .details__subtitle {
+      margin: 1rem 0; }
+    .row .details__pricing {
+      margin: 1rem 0;
+      font-size: 2.4rem; }
+    .row .details__para {
+      line-height: 2.2rem;
+      font-size: 1.4rem; }
+    .row .details__img {
+      height: 10rem;
+      padding: 2rem 0; }
+    .row .details__img-amd {
+      width: 25rem;
+      padding: 2rem 0; }
+    .row .details__finance {
+      margin: 2rem 0;
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: #000;
+      font-weight: 300; }
+    .row .details__dash {
+      border-bottom: 0.1rem solid #dddddd;
+      margin-bottom: 3rem; }
+    .row .details__btn {
+      border: none;
+      border-radius: 10rem;
+      padding: 1rem 2rem;
+      font-family: inherit;
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none; }
+      .row .details__btn--grey {
+        background-color: #eaeaea;
+        color: #464d54; }
 
-.product__container {
-  padding: 5rem 10rem; }
+.background-grey {
+  background-color: #f7f7f7; }
 
-.product__photo {
-  display: table-cell;
-  padding-right: 3rem; }
-  .product__photo--graphics {
-    height: 40rem; }
+.background-white {
+  background-color: #ffffff; }
 
-.details {
-  vertical-align: top;
-  display: table-cell;
-  width: 31rem;
-  padding-left: 4rem; }
-  .details__heading-link {
-    text-decoration: none;
-    color: #404040;
-    font-size: 3rem;
-    font-weight: 700;
-    font-family: inherit;
-    line-height: 1rem; }
-    .details__heading-link:hover {
-      color: #c92228; }
-  .details__subtitle {
-    margin: 1rem 0; }
-  .details__para {
-    line-height: 2.2rem;
-    font-size: 1.3rem; }
-  .details__img {
-    height: 10rem;
-    padding: 2rem 0; }
-  .details__dash {
-    border-bottom: 0.1rem solid #dddddd;
-    margin-bottom: 3rem; }
-  .details__btn {
-    border: none;
-    border-radius: 10rem;
-    padding: 1rem 2rem;
-    font-family: inherit;
-    font-weight: 500;
-    cursor: pointer;
-    text-decoration: none; }
-    .details__btn--grey {
-      background-color: #eaeaea;
-      color: #464d54; }
+::selection {
+  background-color: #c92228;
+  color: #ffffff; }
