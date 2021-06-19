@@ -1,83 +1,70 @@
 .header {
-    height: 10rem;
+    height: 67rem;
     position: relative;
+    background: linear-gradient(to right , rgb(13, 228, 169) 12% , rgb(0, 212, 224) 40% , rgb(40, 89, 187) 80%); 
+    margin-top: 1rem;
 
-    &__text-box {
+    &__photo-box {
         position: absolute;
-        top: 15%;
-        left: 50%; 
-        transform: translate(-50%, -15%); 
-        background-color: $color-light-grey;
-        color: $color-black;
-        width: 100%;
-        padding: 1rem 0;
+        top: 5rem; 
+        left: 26rem;
+    }  
+    .photo {
+        height: 55rem;
     }
-}
-.heading-primary {
 
-    &--main {
-        text-align: center;
+    &__desktop-details {
+        position: absolute;
         display: block;
+        top: 5rem;
+        left: 80rem; 
+    } 
+    .para {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 8rem;
         font-weight: 600;
-        font-size: 18px;
-        color: rgb(26, 164, 126);
-    }
-
-    &--sub-1 {
-        text-align: center;
-        display: block;
-        font-size: 14px;
-        font-weight: 400;
-    }
-}
-.row {
-    display: table; 
-    margin: 0 auto;
-} 
-.content {
-    // margin-top: -3rem;
-    // background-size: cover;
-    background: linear-gradient(to right , rgb(13, 228, 169) 15% , rgb(0, 212, 224) 40% , rgb(59, 115, 225) 80%);
-}
-.content-box__photo {
-    height: 60rem; 
-    padding: 5rem 2rem;
-}
-.box--text {
-    display: table-cell;
-    vertical-align: middle; 
-
-}
-.desktop-details {
-    display: table-cell;
-    vertical-align: middle; 
-}
-.para {
-    text-decoration: none;
-    color: #fff;
-    font-size: 8rem;
-    font-weight: 600;
-    font-family: poppins;
-}
-.para-2 {
-    width: 100%;
-    text-decoration: none;
-    color: #fff;
-    font-size: 2.9rem;
-    font-weight: 600;
-    font-family: poppins;
-    margin: 0;
-
-    &--strong {
+        margin-top: 10rem;
+    } 
+    .para-1 {
+        display: inline-block;
         width: 100%;
+        text-decoration: none;
+        color: #fff;
+        font-size: 2.9rem;
+        font-weight: 600;
+        margin-bottom: -2rem;
+    } 
+    .para-2 {
+        display: inline-block;
+        width: 100%;
+        text-decoration: none;
+        color: #fff;
+        font-size: 2.9rem;
+        font-weight: 600;
+        margin-bottom: 2.5rem;
     }
+    .para-3 {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 2.4rem;
+        font-weight: 400;
+        margin-bottom: .5rem;
+    }  
+    .para-4 {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem; 
+        padding-bottom: 2rem;
+    
+        &__icon {
+            display: inline-block;
+        }
+    }
+}
 
-}
-.para-3 {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.4rem;
-    font-weight: 600;
-    font-family: poppins;
-    margin-bottom: 2rem;
-}
+
+
