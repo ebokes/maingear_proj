@@ -32,23 +32,27 @@ body {
     padding-right: 3rem; }
     .row .product__photo--device {
       height: 40rem;
-      padding-left: 4rem; }
-    .row .product__photo--device-amd {
-      height: 28rem; }
-    .row .product__photo--device-laptop {
-      width: 30rem; }
+      padding-left: 4rem;
+      margin: 0 3.5rem; }
+      .row .product__photo--device-amd {
+        height: 28rem; }
+      .row .product__photo--device-laptop {
+        width: 30rem; }
+      .row .product__photo--device-f131 {
+        width: 23rem; }
   .row .details {
     vertical-align: top;
     display: table-cell;
     width: 33.5rem;
-    padding-left: 5rem; }
+    padding-left: 2rem; }
     .row .details__heading {
       text-decoration: none;
       color: #404040;
       font-size: 3rem;
       font-weight: 700;
       font-family: inherit;
-      line-height: 3.5rem; }
+      line-height: 3.5rem;
+      display: inline-block; }
       .row .details__heading--element {
         font-size: 3.5rem;
         font-family: inherit;
@@ -80,8 +84,8 @@ body {
       height: 10rem;
       padding: 2rem 0; }
     .row .details__img-amd {
-      width: 25rem;
-      padding: 2rem 0; }
+      width: 24rem;
+      margin: 2rem 0; }
     .row .details__finance {
       margin: 2rem 0;
       font-size: 1.5rem;
@@ -90,7 +94,8 @@ body {
       font-weight: 300; }
     .row .details__dash {
       border-bottom: 0.1rem solid #dddddd;
-      margin-bottom: 3rem; }
+      margin-bottom: 3rem;
+      width: 24rem; }
     .row .details__btn {
       border: none;
       border-radius: 10rem;
@@ -98,7 +103,9 @@ body {
       font-family: inherit;
       font-weight: 500;
       cursor: pointer;
-      text-decoration: none; }
+      text-decoration: none;
+      display: inline-block;
+      text-align: center; }
       .row .details__btn--grey {
         background-color: #eaeaea;
         color: #464d54; }
