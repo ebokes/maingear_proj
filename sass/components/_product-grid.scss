@@ -1,0 +1,175 @@
+// .product-wrapper{
+//     width:100vw;
+// }
+
+.row{
+    display: table;
+    // margin: 0 auto;
+    .col-1-of-2{
+        display: table-cell;
+        width: 50%;
+        // height: 50rem; 
+    }
+    .col-2-of-2{
+        display: table-cell;
+        width: 50%;
+        vertical-align: middle;
+        // height: 50rem; 
+    }
+
+
+    .product{
+        &__container{
+            padding: 5rem;
+            display: table;
+        }
+        
+        &__photo{
+            display: table-cell;
+            padding-right: 3rem;
+            
+            &--device{
+                
+                height: 40rem;
+                padding-left: 4rem;
+                margin: 0 3.5rem;
+           
+                &-amd{
+                    height: 28rem;
+                }
+                // For AMD Ryzen only - End
+                // For laptop only - Beginning
+                &-laptop{
+                    width: 30rem;
+                }
+                // For Laptop only - End
+                // For laptop only - Beginning
+                &-f131{
+                    width: 23rem;
+                }
+                // For Laptop only - End
+            }
+            // For AMD Ryzen only - Beginning
+        }
+    }
+    
+    .details{
+        vertical-align: top;
+        display: table-cell;
+        width: 33.5rem;
+        padding-left: 2rem;
+               
+        &__heading{
+            text-decoration: none;
+            color: lighten($color-black, 25%);
+            font-size: 3rem;
+            font-weight: 700;  
+            font-family: inherit;
+            line-height: 3.5rem;
+            display: inline-block;
+            
+            &--element{
+                font-size: 3.5rem;
+                font-family: inherit;
+                text-decoration: none;
+                font-weight: 700;
+                color: lighten($color-black, 25%);
+                padding-bottom: 2rem;
+                display: inline-block;
+                
+                &-lite{
+                    display: inline-block;
+                    background-color: $color-pink;
+                    padding: .1rem .8rem;
+                    color: $color-white;
+                    font-family: inherit;
+                    text-decoration: none;
+                    font-weight: 800;
+                    border-radius: 1rem;
+                }
+            }
+            &:hover{
+                color: $color-red-1;
+            }
+        }
+    
+        &__subtitle{
+            margin: 1rem 0;
+            
+        }
+
+        &__pricing{
+            margin: 1rem 0;
+            font-size: 2.4rem;
+            
+        }
+
+    
+        &__para{
+            line-height: 2.2rem;
+            font-size: 1.4rem;
+    
+        }
+    
+        &__img{
+            height: 10rem;
+            padding: 2rem 0;
+        }
+    
+        // For AMD Ryzen only - Beginning
+        &__img-amd{
+            width: 24rem;
+            margin: 2rem 0;
+        }
+        // For AMD Ryzen only - End
+        
+        &__finance{
+            margin: 2rem 0;
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: $color-black;
+            font-weight: 300;
+        }
+
+        &__dash{
+            border-bottom: .1rem solid darken($color-dark-grey-1,5%);
+            margin-bottom: 3rem;
+            width: 24rem;
+        }
+    
+        &__btn{
+            border: none;
+            border-radius: 10rem;
+            padding: 1rem 2rem;
+            font-family: inherit;
+            font-weight: 500;
+            // font-size: 1.3rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+    
+            &--grey{
+                background-color: $color-dark-grey-1;
+                color:#464d54;
+            }
+        }
+    
+    }
+}
+
+.background-grey{
+    background-color: $color-light-grey-1;
+}
+
+.background-white{
+    background-color: $color-white;
+    // background-color: rgb(61, 71, 61);
+    // vertical-align: top;
+
+}
+
+::selection{
+    background-color: $color-red-1;
+    color: $color-white;
+}
