@@ -1,0 +1,49 @@
+.footer{
+
+    &__container{
+        background-color: rgba($color-black, .9);
+        height: 68rem;
+    }
+
+    &__table{
+        // position: relative;
+
+        // display: table;
+    }
+    
+    &__col{
+        display: inline-block;
+        // position: absolute;
+        // top: 5rem;
+        // left: 4rem;
+        
+    }
+    
+    &__list{
+        // display: inline-block;
+        margin-left: 10rem;
+        margin-top: 15rem;
+
+    }
+
+    &__item{
+        &:first-child{
+            margin-bottom: 3rem;
+            color: $color-white;
+            font-size: 1.8rem;
+        }
+        list-style: none;
+        color: $color-white;
+        font-size: 1.4rem;
+        width: 25rem;
+
+    }
+
+    &__link{
+        color: $color-white;
+        text-decoration: none;
+        font-size: 1.4rem;
+
+    }
+
+}
