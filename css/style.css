@@ -9,4 +9,110 @@ html {
   font-size: 62.5%; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  line-height: 1.7; }
+
+body {
+  font-family: 'Poppins', Roboto, sans-serif; }
+
+.btn:link {
+  font-weight: 600;
+  font-family: inherit;
+  text-decoration: none;
+  padding: .9rem 2.5rem;
+  display: inline-block;
+  border-radius: 10rem;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer; }
+
+.btn-grey {
+  background-color: #eaeaea; }
+  .btn-grey:hover {
+    background-color: #cdd2d6; }
+
+.composition {
+  display: inline-block; }
+
+.alert {
+  height: 10rem;
+  position: relative; }
+
+.text-box {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+  background-color: #f7f7f7;
+  color: #000;
+  width: 100%;
+  padding: 1.2rem 0;
+  margin-top: 3rem; }
+
+.heading-primary--main {
+  text-align: center;
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1aa47e; }
+
+.heading-primary--sub-1 {
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  font-weight: 400; }
+
+.header {
+  height: 67rem;
+  position: relative;
+  background: linear-gradient(to right, #0de4a9 12%, #00d4e0 40%, #2859bb 80%);
+  margin-top: 1rem; }
+  .header__photo-box {
+    position: absolute;
+    top: 5rem;
+    left: 26rem; }
+  .header .photo {
+    height: 55rem; }
+  .header__desktop-details {
+    position: absolute;
+    display: block;
+    top: 5rem;
+    left: 80rem; }
+  .header .para {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 8rem;
+    font-weight: 600;
+    margin-top: 10rem; }
+  .header .para-1 {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.9rem;
+    font-weight: 600;
+    margin-bottom: -2rem; }
+  .header .para-2 {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.9rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem; }
+  .header .para-3 {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: .5rem; }
+  .header .para-4 {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding-bottom: 2rem; }
+    .header .para-4__icon {
+      display: inline-block; }
