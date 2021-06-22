@@ -63,15 +63,17 @@ body {
   font-weight: 400; }
 
 .footer__container {
-  background-color: rgba(0, 0, 0, 0.9);
-  height: 68rem; }
+  background-color: #000;
+  height: 68rem;
+  position: relative; }
+
+.footer__table {
+  position: absolute;
+  left: 20rem;
+  top: 15rem; }
 
 .footer__col {
   display: inline-block; }
-
-.footer__list {
-  margin-left: 10rem;
-  margin-top: 15rem; }
 
 .footer__item {
   list-style: none;
@@ -87,6 +89,19 @@ body {
   color: #ffffff;
   text-decoration: none;
   font-size: 1.4rem; }
+
+.footer__about-container {
+  border-top: 1px solid #6b6b6b;
+  border-bottom: 1px solid #6b6b6b;
+  margin-top: 9rem; }
+  .footer__about-container__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+    display: block;
+    padding: 1.5rem 0; }
 
 .header {
   height: 67rem;
