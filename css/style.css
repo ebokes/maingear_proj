@@ -9,58 +9,112 @@ html {
   font-size: 62.5%; }
 
 body {
-  box-sizing: border-box;
-  line-height: 1.7; }
+  box-sizing: border-box; }
 
 body {
-  font-family: 'Poppins', Roboto, sans-serif; }
-
-.btn:link {
-  font-weight: 600;
-  font-family: inherit;
-  text-decoration: none;
-  padding: .9rem 2.5rem;
-  display: inline-block;
-  border-radius: 10rem;
   font-size: 1.2rem;
-  border: none;
-  cursor: pointer; }
+  font-family: 'Poppins', sans-serif; }
 
-.btn-grey {
-  background-color: #eaeaea; }
-  .btn-grey:hover {
-    background-color: #cdd2d6; }
+.row {
+  display: table; }
+  .row .col-1-of-2 {
+    display: table-cell;
+    width: 50%; }
+  .row .col-2-of-2 {
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle; }
+  .row .product__container {
+    padding: 5rem;
+    display: table; }
+  .row .product__photo {
+    display: table-cell;
+    padding-right: 3rem; }
+    .row .product__photo--device {
+      height: 40rem;
+      padding-left: 4rem;
+      margin: 0 3.5rem; }
+      .row .product__photo--device-amd {
+        height: 28rem; }
+      .row .product__photo--device-laptop {
+        width: 30rem; }
+      .row .product__photo--device-f131 {
+        width: 23rem; }
+  .row .details {
+    vertical-align: top;
+    display: table-cell;
+    width: 33.5rem;
+    padding-left: 2rem; }
+    .row .details__heading {
+      text-decoration: none;
+      color: #404040;
+      font-size: 3rem;
+      font-weight: 700;
+      font-family: inherit;
+      line-height: 3.5rem;
+      display: inline-block; }
+      .row .details__heading--element {
+        font-size: 3.5rem;
+        font-family: inherit;
+        text-decoration: none;
+        font-weight: 700;
+        color: #404040;
+        padding-bottom: 2rem;
+        display: inline-block; }
+        .row .details__heading--element-lite {
+          display: inline-block;
+          background-color: #ff3399;
+          padding: .1rem .8rem;
+          color: #ffffff;
+          font-family: inherit;
+          text-decoration: none;
+          font-weight: 800;
+          border-radius: 1rem; }
+      .row .details__heading:hover {
+        color: #c92228; }
+    .row .details__subtitle {
+      margin: 1rem 0; }
+    .row .details__pricing {
+      margin: 1rem 0;
+      font-size: 2.4rem; }
+    .row .details__para {
+      line-height: 2.2rem;
+      font-size: 1.4rem; }
+    .row .details__img {
+      height: 10rem;
+      padding: 2rem 0; }
+    .row .details__img-amd {
+      width: 24rem;
+      margin: 2rem 0; }
+    .row .details__finance {
+      margin: 2rem 0;
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: #000;
+      font-weight: 300; }
+    .row .details__dash {
+      border-bottom: 0.1rem solid #dddddd;
+      margin-bottom: 3rem;
+      width: 24rem; }
+    .row .details__btn {
+      border: none;
+      border-radius: 10rem;
+      padding: 1rem 2rem;
+      font-family: inherit;
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      text-align: center; }
+      .row .details__btn--grey {
+        background-color: #eaeaea;
+        color: #464d54; }
 
-.composition {
-  display: inline-block; }
+.background-grey {
+  background-color: #f7f7f7; }
 
-.alert {
-  height: 10rem;
-  position: relative; }
-
-.text-box {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -15%);
-  background-color: #f7f7f7;
-  color: #000;
-  width: 100%;
-  padding: 1.2rem 0;
-  margin-top: 3rem; }
-
-.heading-primary--main {
-  text-align: center;
-  display: block;
-  font-weight: 600;
-  font-size: 18px;
-  color: #1aa47e; }
-
-.heading-primary--sub-1 {
-  text-align: center;
-  display: block;
-  font-size: 14px;
-  font-weight: 400; }
+.background-white {
+  background-color: #ffffff; }
 
 .footer__container {
   background-color: #000;
@@ -157,3 +211,6 @@ body {
     padding-bottom: 2rem; }
     .header .para-4__icon {
       display: inline-block; }
+::selection {
+  background-color: #c92228;
+  color: #ffffff; }

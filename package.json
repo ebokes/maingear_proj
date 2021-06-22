@@ -1,14 +1,22 @@
 {
-  "name": "maingear",
+  "name": "maingear-product-grid",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css"
   },
-  "author": "",
+  "author": "ebokes",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebokes/maingear_proj.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ebokes/maingear_proj/issues"
+  },
+  "homepage": "https://github.com/ebokes/maingear_proj#readme",
+  "description": ""
 }
