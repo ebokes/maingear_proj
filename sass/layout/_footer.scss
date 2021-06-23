@@ -1,9 +1,9 @@
 .footer{
-    background-color: $color-black;
+    // background-color: $color-black;
     height: 68rem;
-
+     background-color: $color-black;
     &__container{
-        // background-color: rgba($color-black, 1);
+        // background-color: rgba($color-black, .8);
         // margin: 0 auto;
         position: relative;
     }
@@ -81,7 +81,6 @@
         }
     }
 
-
     &__email{
         background-color: $color-black;
         font-family: inherit;
@@ -155,3 +154,9 @@
 .col-4-of-4{
     position: relative;
 }
+
+// .pre-footer{
+//     height: 10rem;
+//     background-color: $color-white;
+//     padding-bottom: ;
+// }

@@ -151,8 +151,8 @@ body {
   color: #ffffff; }
 
 .footer {
-  background-color: #000;
-  height: 68rem; }
+  height: 68rem;
+  background-color: #000; }
   .footer__container {
     position: relative; }
   .footer__table {
