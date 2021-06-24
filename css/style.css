@@ -34,6 +34,44 @@ body {
 .composition {
   display: inline-block; }
 
+.feature-box {
+  box-shadow: none; }
+
+.feature-photo {
+  width: 100%;
+  display: inline-block; }
+
+.container {
+  padding-left: 2rem;
+  margin-top: 2rem; }
+  .container:last-child {
+    padding-left: 2rem;
+    margin-top: 1.5rem; }
+
+.photo {
+  display: table-cell;
+  padding-right: 2rem; }
+
+.photos-text {
+  display: block; }
+
+.pic {
+  width: 100%;
+  border-radius: 2rem; }
+
+.t-entry {
+  position: relative;
+  padding-left: 2rem;
+  left: 6rem;
+  bottom: 0;
+  transform: scale(1);
+  display: block;
+  width: 80%; }
+
+.time-entry {
+  display: inline-block;
+  width: 75%; }
+
 .alert {
   height: 10rem;
   position: relative; }
@@ -61,6 +99,24 @@ body {
   display: block;
   font-size: 14px;
   font-weight: 400; }
+
+.row {
+  max-width: 150rem;
+  margin-bottom: 7rem;
+  margin: 0 auto; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    background-color: darkgreen;
+    float: left;
+    margin: 0 auto; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 7rem; }
+
+.col-1-of-3 {
+  width: calc((100% - 2 * 7rem) / 3); }
 
 .header {
   height: 67rem;
