@@ -1,0 +1,35 @@
+.accessories{
+    margin: 6rem auto;
+    text-align: center;
+    
+    &__item{
+        margin:0 4rem;
+        text-align: center;
+        font-size: 1.6rem;
+        display: inline-block;
+
+    }
+    
+    &__image{
+        width: 15rem;
+    }
+    
+    &__head{
+        font-weight: 500;
+        
+    }
+    
+    &__pricing{
+        font-weight: 300;
+
+    }
+
+    &__link{
+        color: $color-black;
+        text-decoration: none;
+        &:hover{
+            color: $color-red-1;
+        }
+    }
+
+}
