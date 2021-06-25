@@ -1,36 +1,44 @@
 .footer{
-    // background-color: $color-black;
-    height: 68rem;
-     background-color: $color-black;
-    &__container{
-        // background-color: rgba($color-black, .8);
-        // margin: 0 auto;
-        position: relative;
-    }
-
-    &__table{
-        padding: 15rem 15rem 4rem 21rem;
-        // padding: 15rem auto 4rem auto;
-        // FIX MEEEEE
-    }
+    background-color: $color-black;
+    height: 64rem;
+    background-color: $color-black;
     
-    &__col{
-        display: inline-block;
-
-        &:not(:last-child){
-            padding-right: 4.8rem;
+    &__container{
+        max-width: 119rem;
+        margin: 0 auto;
+        // padding-bottom: 6rem;
+        padding: 15rem 5rem 0 5rem;
+        // margin-bottom: $gutter-vertical;
+     
+        @include clearfix;
+    
+        .col-1-of-4{
+            width: calc((100% - #{$gutter-horizontal}*3) /4);
+            float: left;
+            &:not(:nth-child(4)){
+                margin-right: 6rem;
+            }
         }
+
         
     }
-    
+    &__sub{
+        position: relative;
+        
+    }
+
+    &__subscribe{
+        position: absolute;
+        left:0rem;
+        bottom: -10rem;
+    }
+
     &__list{
         &--gap{
             list-style: none;
             font-size: 1.4rem;
             opacity: 0;
         }
-        
-
     }
 
     &__item{
@@ -68,7 +76,7 @@
         border-bottom: 1px solid $color-dark-grey-2;
         margin-top: 9rem;
         display: inline-block;
-        width: 96%;
+        width: 100%;
         
         &-link{
             text-decoration: none;
@@ -97,16 +105,8 @@
         }
     }
 
-    &__subscribe{
-        position: absolute;
-        left:60rem;
-        top: -4rem;
-    }
+    
 
-    &__subscribe-container{
-        position: relative;
-        padding-bottom: 4rem;
-    }
 
     &__btn{
         background-color: $color-red-1;
@@ -128,11 +128,12 @@
         height: 4.5rem;
         color: $color-white;
         border-radius: .2rem;
+        // position: relative;
 
         &--icon{
             position: absolute;
             top:1.5rem;
-            right: 6.1rem;
+            right: 1.1rem;
             font-size: 1.4rem;
         }
         
@@ -144,7 +145,7 @@
     }
     
     &__credit{
-        width: 23rem;
+        width: 100%;
     }
 
     &__copyright{
@@ -154,9 +155,19 @@
 
 }
 
-.col-4-of-4{
+.noFloat {
+    width: 100%;
+    overflow: hidden; //If you get a scroll bar, try overflow: hidden;
+    float: none;
+}
+
+.mag{
     position: relative;
 }
+
+// .col-4-of-4{
+//     position: relative;
+// }
 
 // .pre-footer{
 //     height: 10rem;
