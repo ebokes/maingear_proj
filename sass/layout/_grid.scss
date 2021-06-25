@@ -1,0 +1,45 @@
+// .row1{
+//     max-width: $grid-width
+//     background-color: #eee;
+//     margin: 0 auto;
+//     margi
+
+// }
+
+.row-grid{
+    // max-width: $grid-width;
+    // background-color: #eee;
+    // margin: 0 auto;
+
+    // &:not(:last-child){
+    //     margin-bottom: $gutter-vertical;
+    // }
+
+    // @include clearfix;
+
+    // [class^="col-"] {
+        // background-color: red;
+        // float: left;
+        // &:not(:last-child){
+        //     margin-right: $gutter-horizontal;
+        // }
+    // }
+
+    .col-1-of-2{
+        width: calc((100% - #{$gutter-horizontal}) /2);
+    }
+
+    .col-1-of-3{
+        width: calc((100% - #{$gutter-horizontal}*2) /3);
+    }
+
+    .col-1-of-4{
+        width: calc((100% - #{$gutter-horizontal}*3) /4);
+    }
+
+    .col-1-of-6{
+        width: calc((100% - #{$gutter-horizontal}*5) /6);
+    }
+
+}
+
