@@ -1,0 +1,19 @@
+.btn:link {
+    font-weight: 600;
+    font-family: inherit;
+    text-decoration: none;
+    padding: .9rem 2.5rem;
+    display: inline-block;
+    border-radius: 10rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-grey {
+    background-color:#eaeaea;
+
+    &:hover {
+        background-color: #cdd2d6;
+    }
+}
