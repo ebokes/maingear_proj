@@ -210,6 +210,25 @@ body {
 .row-grid .col-1-of-6 {
   width: calc((100% - 6rem*5) /6); }
 
+.header {
+  height: 67rem;
+  position: relative;
+  background: linear-gradient(to right, #0de4a9 12%, #00d4e0 40%, #2859bb 80%);
+  margin-top: 1rem; }
+  .header__photo-box {
+    position: absolute;
+    top: 5rem;
+    left: 26rem; }
+  .header .photo {
+    height: 55rem; }
+  .header__desktop-details {
+    position: absolute;
+    display: block;
+    top: 5rem;
+    left: 80rem; }
+  .header .para {
+    display: inline-block; }
+
 .row {
   display: table; }
   .row .col-1-of-2 {

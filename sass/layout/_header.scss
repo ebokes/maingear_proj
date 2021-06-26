@@ -1,0 +1,27 @@
+.header{
+    height: 67rem;
+    position: relative;
+    background: linear-gradient(to right , rgb(13, 228, 169) 12% , rgb(0, 212, 224) 40% , rgb(40, 89, 187) 80%); 
+    margin-top: 1rem;
+
+    &__photo-box {
+        position: absolute;
+        top: 5rem; 
+        left: 26rem;
+    } 
+
+    .photo {
+        height: 55rem;
+    }
+
+    &__desktop-details {
+        position: absolute;
+        display: block;
+        top: 5rem;
+        left: 80rem; 
+    } 
+    
+    .para {
+        display: inline-block;
+    }
+}
