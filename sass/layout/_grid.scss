@@ -1,29 +1,29 @@
-.row {
-    max-width: 150rem; 
-    margin-bottom: 7rem;
-    margin: 0 auto;
+// .row {
+//     max-width: 150rem; 
+//     margin-bottom: 7rem;
+//     margin: 0 auto;
 
-    // &:not(:last-child) {
-    //     margin-bottom: 8rem; 
-    // } 
+//     // &:not(:last-child) {
+//     //     margin-bottom: 8rem; 
+//     // } 
 
-    @include clearfix;
+//     @include clearfix;
 
-    [class^="col-"] {
-        background-color: darkgreen;
-        float: left;
-        margin: 0 auto; 
+//     [class^="col-"] {
+//         background-color: darkgreen;
+//         float: left;
+//         margin: 0 auto; 
  
-        &:not(:last-child) {
-            margin-right: 7rem; 
+//         &:not(:last-child) {
+//             margin-right: 7rem; 
             
         
-        }
-    }
-}
-.col-1-of-3 {
-    width: calc((100% - 2 * #{7rem}) / 3);
-}   
+//         }
+//     }
+// }
+// .col-1-of-3 {
+//     width: calc((100% - 2 * #{7rem}) / 3);
+// }   
 //     &:not(:last-child) {
 //         margin-bottom: 8rem; 
 //     }
