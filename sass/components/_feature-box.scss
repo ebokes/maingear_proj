@@ -1,7 +1,7 @@
-// .section-features {
-//     height: 100rem;
-//     position: relative;
-// }
+.section-features {
+    height: 90vh;
+    padding-bottom: 30rem; 
+}
 .text {
     text-align: center;
     display: block;
@@ -10,6 +10,7 @@
     color: #303133;
     letter-spacing: -0.02em;
     font-family: roboto;
+    margin-top: 10rem;  
 }
 
 .feature-photo {
@@ -23,6 +24,7 @@
     &:last-child {
         padding-left: 2rem;
         margin-top: 1.5rem;
+        margin-bottom: 10rem;
     }
 }
 .photo{
@@ -65,7 +67,8 @@
 .pic {
     z-index: -100;
     width: 100%; 
-    border-radius: 2rem; 
+    border-radius: 2rem;
+    cursor: pointer; 
     // background-color: chocolate; 
 }
 .background-cover {

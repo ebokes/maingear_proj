@@ -12,5 +12,9 @@ html{
 
 body{
     box-sizing: border-box;
-    line-height: 1.7;   
+}
+
+::selection{
+    background-color: $color-red-1;
+    color: $color-white;
 }

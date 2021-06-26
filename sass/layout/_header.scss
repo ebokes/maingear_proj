@@ -1,3 +1,35 @@
+.alert {
+    height: 15rem;
+    position: relative;
+}
+.text-box {
+        position: absolute;
+        top: 65%;
+        left: 50%;  
+        transform: translate(-50%, -15%); 
+        background-color: $color-light-grey-1;
+        color: $color-black;
+        width: 100%;
+        padding: 1.2rem 0;
+        // margin-top: 3rem;
+}
+.heading-primary {
+
+    &--main {
+        text-align: center;
+        display: block;
+        font-weight: 600;
+        font-size: 18px;
+        color: rgb(26, 164, 126); 
+    }
+
+    &--sub-1 {
+        text-align: center;
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+    }
+} 
 .header {
     height: 67rem;
     position: relative;
@@ -65,6 +97,3 @@
         }
     }
 }
-
-
-

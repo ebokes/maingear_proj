@@ -1,7 +1,12 @@
-@mixin clearfix {
-    &::after {
+@mixin link{
+    font-family: inherit;
+    text-decoration: none;
+}
+
+@mixin clearfix{
+    &::after{
         content: "";
+        clear: both;
         display: table;
-        clear: both; 
     }
 }
