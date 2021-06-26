@@ -208,7 +208,7 @@ body {
   width: calc((100% - 6rem*3) /4); }
 
 .row-grid .col-1-of-6 {
-  width: calc((100%) /6); }
+  width: calc((100% - 6rem*5) /6); }
 
 .row {
   display: table; }

@@ -1,9 +1,49 @@
 // .row1{
 //     max-width: $grid-width
 //     background-color: #eee;
+// .row {
+//     max-width: 150rem; 
+//     margin-bottom: 7rem;
 //     margin: 0 auto;
 //     margi
 
+//     // &:not(:last-child) {
+//     //     margin-bottom: 8rem; 
+//     // } 
+
+//     @include clearfix;
+
+//     [class^="col-"] {
+//         background-color: darkgreen;
+//         float: left;
+//         margin: 0 auto; 
+ 
+//         &:not(:last-child) {
+//             margin-right: 7rem; 
+            
+        
+//         }
+//     }
+// }
+// .col-1-of-3 {
+//     width: calc((100% - 2 * #{7rem}) / 3);
+// }   
+//     &:not(:last-child) {
+//         margin-bottom: 8rem; 
+//     }
+
+//     [class^="col-"] {
+//         float: right; 
+ 
+//         // &:not(:last-child) {
+//         //     margin-right: 6rem;
+//         // }
+        
+//     }
+
+//     .col-1-of-2 {
+//         width: calc((100% - #{6rem}) / 2);
+//     }
 // }
 
 .row-grid{

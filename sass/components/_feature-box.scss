@@ -1,0 +1,78 @@
+// .section-features {
+//     height: 100rem;
+//     position: relative;
+// }
+.text {
+    text-align: center;
+    display: block;
+    font-weight: 300;
+    font-size: 3.5rem; 
+    color: #303133;
+    letter-spacing: -0.02em;
+    font-family: roboto;
+}
+
+.feature-photo {
+    width: 100%;
+    display:inline-block;
+}
+.container {
+    padding-left: 2rem;
+    margin-top: 2rem;
+
+    &:last-child {
+        padding-left: 2rem;
+        margin-top: 1.5rem;
+    }
+}
+.photo{
+    display: table-cell;
+    padding-right: 2rem;
+
+}
+.entry-box {
+    position: relative;
+    width: 75%;
+    
+
+    &__entry {
+        margin-top: 10rem;
+        text-align: left;
+        position: absolute;
+        padding: 2rem 0 2rem 2rem;  
+        display: inline-block;
+        // left: 2rem;
+    }
+    
+}
+.time-entry {
+
+    position: absolute;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: inline-block;
+    color: #fff;
+
+}
+.photos-text {
+    font-size: 2rem;
+    display:block;
+    font-weight: 700;
+    color: #fff;
+    margin-top: .9rem;
+    letter-spacing: -0.02em;
+}
+.pic {
+    z-index: -100;
+    width: 100%; 
+    border-radius: 2rem; 
+    // background-color: chocolate; 
+}
+.background-cover {
+    height: auto; 
+    width: 45rem;
+    background-image: url(../img/16-background.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 2rem;
+}
